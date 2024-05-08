@@ -1,0 +1,10 @@
+{
+  apps : [
+    {
+      name      : "LAROME",
+      script    : "npx",
+      interpreter: "none",
+      args: "serve -s dist -p 3000"
+    }
+  ]
+}
